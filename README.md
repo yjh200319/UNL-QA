@@ -1,10 +1,8 @@
 # UNL-QA
 
-___
 This project is the source code of a paper published at the IEEE ISBI 2025 conference, titled: UNSUPERVISED NORMATIVE LEARNING FOR  QUALITY ASSESSMENT ON 
 DIFFUSION MRI.
 
-____
 ## Introduction
 
 UNL-QA is an unsupervised quality assessment tool for **diffusion MRI (dMRI)** that automatically detects artifacts like ghosting, spikes, noise, and swaps **without** requiring labeled training data. Leveraging a Vector Quantized Variational Autoencoder (**VQ-VAE**), it learns normative patterns from artifact-free dMRI scans. By quantifying Structural Similarity Index Metric (**SSIM**) differences between original and reconstructed images, UNL-QA identifies abnormalities with high precision. Validated across multiple datasets with varying acquisition parameters, this approach significantly reduces manual inspection burdens while maintaining clinical-grade accuracy. 
